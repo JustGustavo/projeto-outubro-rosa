@@ -125,6 +125,7 @@ main {
 
 #box_dicas {
     @include flex-center();
+    justify-content: space-evenly;
     min-width: 100%;
     height: 416px;
 
