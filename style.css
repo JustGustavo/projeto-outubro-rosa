@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #FFD9EC;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: 85px;
+}
+.logo h1 {
+  font-weight: normal;
+  font-size: 1.2rem;
+  font-family: "Noto Sans";
+  color: #E4EEF1;
+}
+
+header {
+  min-width: 100%;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header li {
+  padding: 0px 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100%;
+  padding: 20px 10px;
+  background-color: #c6538c;
+}
+nav a {
+  font-weight: normal;
+  font-size: 1.2rem;
+  font-family: "Noto Sans";
+  color: #E4EEF1;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+main section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+main p {
+  font-weight: normal;
+  font-size: 1.2rem;
+  font-family: "Noto Sans";
+  color: #E4EEF1;
+}
+
+#bloco_1 {
+  display: flex;
+  min-width: 100%;
+}
+#bloco_1 img {
+  height: auto;
+  width: 30%;
+  margin: 10px 50px;
+}
+#bloco_1 p {
+  color: #000000;
+  font-size: 1.5rem;
+  margin: 10px 50px;
+  text-align: start;
+}
+
+#bloco_2 {
+  background-color: #c6538c;
+  min-width: 100%;
+  height: 342px;
+}
+#bloco_2 img {
+  height: auto;
+  width: 40%;
+  margin: 0px 25px;
+}
+#bloco_2 p {
+  font-size: 1.5rem;
+  margin: 10px 50px;
+  text-align: start;
+}
+
+#bloco_3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100%;
+  height: 416px;
+}
+#bloco_3 img {
+  height: auto;
+  width: 20%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c6538c;
+  padding: 15px 10px;
+}
+footer p {
+  font-weight: normal;
+  font-size: 1.2rem;
+  font-family: "Noto Sans";
+  color: #E4EEF1;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 5px 0px;
+}
+footer img {
+  width: 70px;
+  height: 70px;
+}
+
+.sociais img {
+  border-radius: 50%;
+  padding: 5px;
+}
+.sociais img:hover {
+  background-color: #E4EEF1;
+  border: 3px solid black;
+}/*# sourceMappingURL=style.css.map */

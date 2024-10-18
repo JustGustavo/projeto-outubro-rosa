@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+
+@mixin flex-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin text-font {
+    font-weight: normal;
+    font-size: 1.2rem; 
+    font-family: "Noto Sans";
+    color: $text-color1;
+}
+
+$base-color1: #c6538c;
+$base-color2: #FFD9EC;
+$text-color1: #E4EEF1;
+$text-color2: #000000;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: $base-color2;
+
+}
+.logo {
+
+    @include flex-center();  
+    
+    img {
+        height: 85px;
+    }
+    
+    h1 {
+        @include text-font();
+    }
+}
+
+header{
+    min-width: 100%;
+    ul {
+        @include flex-center();
+    }
+
+    li {
+        padding: 0px 50px;
+    }
+
+
+}
+nav {
+    @include flex-center();
+    min-width: 100%;
+    padding: 20px 10px;
+    background-color: $base-color1;
+
+
+    a {
+        @include text-font();
+    }
+
+    a:hover {
+        text-decoration: underline;
+
+    }
+
+}
+main {
+    section {
+        @include flex-center();
+        justify-content: center;
+
+    }
+    p {
+        @include text-font();
+    }
+}
+
+
+#bloco_1 {
+    display: flex;
+    min-width: 100%;
+    
+    img {
+        height: auto;
+        width: 30%;
+        margin: 10px 50px;
+    }
+
+    p {
+        color: $text-color2;
+        font-size: 1.5rem;
+        margin: 10px 50px;
+        text-align: start; 
+    }
+}
+
+#bloco_2 {
+
+    background-color:$base-color1;
+    min-width: 100%;
+    height: 342px;
+ 
+    img {
+        height: auto;
+        width: 40%;
+        margin: 0px 25px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        margin: 10px 50px;
+        text-align: start; 
+    }
+}
+
+#bloco_3 {
+    @include flex-center();
+    min-width: 100%;
+    height: 416px;
+
+    img {
+        height: auto;
+        width: 20%;
+   
+    }
+}
+
+footer {
+    @include flex-center();
+    background-color: $base-color1;
+    padding: 15px 10px;
+
+    p {
+        @include text-font();
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 5px 0px;
+
+
+    }                                                                                                                                                       
+    img {
+        width: 70px;
+        height: 70px;
+
+    }
+
+}
+
+    .sociais {
+        img {
+        border-radius: 50%;
+        padding: 5px;
+        }
+
+        img:hover {
+            background-color: $text-color1;
+            border: 3px solid black;
+        }
+    }
+
