@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -68,46 +69,46 @@ main p {
   color: #E4EEF1;
 }
 
-#bloco_1 {
+#box_sobre {
   display: flex;
   min-width: 100%;
 }
-#bloco_1 img {
+#box_sobre img {
   height: auto;
   width: 30%;
   margin: 10px 50px;
 }
-#bloco_1 p {
+#box_sobre p {
   color: #000000;
   font-size: 1.5rem;
   margin: 10px 50px;
   text-align: start;
 }
 
-#bloco_2 {
+#box_conscientização {
   background-color: #c6538c;
   min-width: 100%;
   height: 342px;
 }
-#bloco_2 img {
+#box_conscientização img {
   height: auto;
   width: 40%;
   margin: 0px 25px;
 }
-#bloco_2 p {
+#box_conscientização p {
   font-size: 1.5rem;
   margin: 10px 50px;
   text-align: start;
 }
 
-#bloco_3 {
+#box_dicas {
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-width: 100%;
   height: 416px;
 }
-#bloco_3 img {
+#box_dicas img {
   height: auto;
   width: 20%;
 }
